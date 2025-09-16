@@ -13,6 +13,7 @@ import os
 def handleJobPosting(title, link, company):
     print("Found 1 recent job posting at " + company)
     if(len(ac.findall(title)) != 0):
+        #printl
         posting = {
             "title" : title,
             "link" : link,
@@ -161,6 +162,10 @@ for i in companies['companies']:
             print("No current postings for Epic Games")
     if(i['Name']=='GetYourGuide'):
         driver.get(i['Url'])
+        delay = 10
+        try: WebDriverWait(driver, delay).until(EC.element_to_be_clickable(driver.find_element(By.ID, 'reset-filter')))
+        except TimeoutException:
+            print("Internet too slow")
         try:
             postings = driver.find_elements(By.CSS_SELECTOR, 'a.open-roles-item')
             for job in postings:
