@@ -174,6 +174,17 @@ for i in companies['companies']:
                 handleJobPosting(title,href,"GetYourGuide")
         except NoSuchElementException:
             print("No current postings for GetYourGuide")
+    if(i['Name']=='Adobe'):
+        driver.get(i['Url'])
+        try:
+            postings = driver.find_elements(By.CSS_SELECTOR, 'li.jobs-list-item')
+            for job in postings:
+                link = job.find_element(By.TAG_NAME, 'a')
+                title = link.get_attribute("aria-label")
+                href = link.get_attribute('href')
+                handleJobPosting(title,href,"Adobe")
+        except NoSuchElementException:
+            print("No current postings for Adobe")
 driver.quit()
 with open('data/newjobs.json', 'w') as json_file:
     json.dump(newpostings, json_file, default=str)

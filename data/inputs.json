@@ -39,6 +39,10 @@
 		{
 			"Name": "GetYourGuide",
 			"Url": "https://www.getyourguide.careers/open-roles?team=Engineering&location=Zurich"
+		},
+		{
+			"Name": "Adobe",
+			"Url": "https://careers.adobe.com/us/en/search-results?qcountry=Switzerland"
 		}
 	]
 }
