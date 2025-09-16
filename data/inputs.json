@@ -3,6 +3,42 @@
 		{
 			"Name": "Jobrad",
 			"Url": "https://karriere.jobrad.org/search?department=IT&department=Software%20Development&location=Freiburg%20im%20Breisgau&custom_filter_1=Mit%20Berufserfahrung"
+		},
+		{
+			"Name": "Google",
+			"Url": "https://www.google.com/about/careers/applications/jobs/results/?location=Zurich%2C%20Switzerland&target_level=EARLY&target_level=MID&degree=BACHELORS&employment_type=FULL_TIME&sort_by=date"
+		},
+		{
+			"Name": "Meta",
+			"Url": "https://www.metacareers.com/jobs?offices[0]=Zurich%2C%20Switzerland&roles[0]=Full%20time%20employment&sort_by_new=true"
+		},
+		{
+			"Name": "Apple",
+			"Url": "https://jobs.apple.com/de-de/search?location=zurich-ZUR&team=acoustic-technologies-HRDWR-ACT+analog-and-digital-design-HRDWR-ADD+architecture-HRDWR-ARCH+battery-engineering-HRDWR-BE+camera-technologies-HRDWR-CAM+display-technologies-HRDWR-DISP+engineering-project-management-HRDWR-EPM+environmental-technologies-HRDWR-ENVT+health-technology-HRDWR-HT+machine-learning-HRDWR-MCHLN+mechanical-engineering-HRDWR-ME+process-engineering-HRDWR-PE+reliability-engineering-HRDWR-REL+sensor-technologies-HRDWR-SENT+silicon-technologies-HRDWR-SILT+system-design-and-test-engineering-HRDWR-SDE+wireless-hardware-HRDWR-WT+apps-and-frameworks-SFTWR-AF+cloud-and-infrastructure-SFTWR-CLD+core-operating-systems-SFTWR-COS+devops-and-site-reliability-SFTWR-DSR+engineering-project-management-SFTWR-EPM+information-systems-and-technology-SFTWR-ISTECH+machine-learning-SFTWR-MCHLN+security-and-privacy-SFTWR-SEC+software-quality-automation-and-tools-SFTWR-SQAT+wireless-software-SFTWR-WSFT+machine-learning-infrastructure-MLAI-MLI+deep-learning-and-reinforcement-learning-MLAI-DLRL+natural-language-processing-and-speech-technologies-MLAI-NLP+computer-vision-MLAI-CV+applied-research-MLAI-AR"
+		},
+		{
+			"Name": "Snap",
+			"Url": "https://careers.snap.com/jobs?lang=de-DE&location=Zurich&role=Engineering&type=Regular"
+		},
+		{
+			"Name": "Nvidia",
+			"Url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?locations=91336993fab910af6d6f80c09504c167&workerSubType=0c40f6bd1d8f10adf6dae161b1844a15"
+		},
+		{
+			"Name": "Dfinity",
+			"Url": "https://job-boards.greenhouse.io/dfinity?offices%5B%5D=4001633002"
+		},
+		{
+			"Name": "IBM",
+			"Url": "https://www.ibm.com/de-de/careers/search?field_keyword_08[0]=Software%20Engineering&field_keyword_18[0]=Professional&field_keyword_05[0]=Switzerland"
+		},
+		{
+			"Name": "Epic Games",
+			"Url": "https://www.epicgames.com/site/en-US/careers/jobs?country=Multiple%20Locations&department=Engineering&page=1"
+		},
+		{
+			"Name": "GetYourGuide",
+			"Url": "https://www.getyourguide.careers/open-roles?team=Engineering&location=Zurich"
 		}
 	]
 }
